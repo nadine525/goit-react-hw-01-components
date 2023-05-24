@@ -1,10 +1,4 @@
-function Profile({
-  username,
-  tag,
-  location,
-  avatar,
-  stats: { followers, views, likes },
-}) {
+export default function Profile(avatar, username, tag, location, stats) {
   return (
     <div class="profile">
       <div class="description">
@@ -16,15 +10,15 @@ function Profile({
 
       <ul class="stats">
         <li>
-          <span class="label">{followers}</span>
+          <span class="label">{stats.followers}</span>
           <span class="quantity">1000</span>
         </li>
         <li>
-          <span class="label">{views}</span>
+          <span class="label">{stats.views}</span>
           <span class="quantity">2000</span>
         </li>
         <li>
-          <span class="label">{likes}</span>
+          <span class="label">{stats.likes}</span>
           <span class="quantity">3000</span>
         </li>
       </ul>

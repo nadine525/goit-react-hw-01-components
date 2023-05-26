@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Stat } from './Stat';
-import css from './Statistic.module.css';
+import css from './Statistics.module.css';
 
 export function Statistics({ title, stats }) {
   return (

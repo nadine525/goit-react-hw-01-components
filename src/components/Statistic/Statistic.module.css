@@ -1,0 +1,44 @@
+.statistics {
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 400px;
+    border: 1px solid grey;
+}
+
+.title {
+    text-align: center;
+    color: gray;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+.stat {
+    display: flex;
+    padding: 0;
+    margin: auto;
+    list-style: none;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: calc(100% / 4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.label{
+    margin-bottom: 8px;
+    color: white;
+}
+
+.percentage{
+    display: block;
+    font-weight: bold;
+    color: white;
+}

@@ -1,6 +1,9 @@
 .profile {
     margin: auto;
+    margin-bottom: 10px;
     max-width: 400px;  
+    padding: 20px;
+    border: 1px solid grey;
 }
 
 .description {
@@ -8,6 +11,7 @@
     margin: auto;
     padding: 30px 30px;
     text-align: center;
+
 }
 
 .avatar {

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 
-export function FriendListItem({ avatar, name, isOnline, id }) {
+export function FriendListItem({ id, avatar, name, isOnline }) {
   return (
     <li className={css.item} key={id}>
       {isOnline ? (
@@ -16,10 +16,8 @@ export function FriendListItem({ avatar, name, isOnline, id }) {
 }
 
 FriendListItem.propTypes = {
-  friend: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    isOnline: PropTypes.bool.isRequired,
-    avatar: PropTypes.string.isRequired,
-    id: PropTypes.number.isRequired,
-  }).isRequired,
+  id: PropTypes.number,
+  avatar: PropTypes.string,
+  name: PropTypes.string,
+  isOnline: PropTypes.bool,
 };

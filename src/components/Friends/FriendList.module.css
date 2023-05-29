@@ -2,6 +2,7 @@
     background-color: white;
     padding: 20px;
     margin: auto;
+    margin-bottom: 10px;
     max-width: 400px;
     border: 1px solid grey;
     list-style: none;    
@@ -13,7 +14,6 @@
     margin-bottom: 10px;
     margin-right: auto;
     margin-left: auto;
-    /* border-radius: 10px; */
     gap: 8px;
     align-items: center;
     max-width: 400px;

@@ -1,7 +1,7 @@
 .statistics {
     padding: 20px;
     margin: auto;
-
+    margin-bottom: 10px;
     max-width: 400px;
     border: 1px solid grey;
 }
@@ -34,11 +34,11 @@
 
 .label{
     margin-bottom: 8px;
-    color: white;
+    color: rgb(177, 176, 176);
 }
 
 .percentage{
     display: block;
     font-weight: bold;
-    color: white;
+    color: rgb(177, 176, 176);
 }
